@@ -1,0 +1,86 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+button,
+input {
+  display: block;
+  border-style: none;
+  font-size: 30px;
+  border-radius: 10px;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  cursor: pointer;
+  color: white;
+  padding: 10px;
+}
+
+.calculator {
+  width: 400px;
+  border: 1px solid white;
+  margin: auto;
+  padding: 10px;
+}
+
+.calculator .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 5px;
+  color: white;
+  padding: 10px;
+  text-align: right;
+}
+
+.calculator .input input {
+  width: 74.6666666%;
+  height: 100px;
+  background-color: #ffffff55;
+}
+
+.calculator .input button {
+  width: 24%;
+  height: 100px;
+  background-color: red;
+  color: white;
+}
+
+.calculator .buttons-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+.calculator .buttons-wrapper .button {
+  width: 24%;
+  margin-bottom: 5px;
+  height: 80px;
+  background-color: #ffffff55;
+  border-radius: 10px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
